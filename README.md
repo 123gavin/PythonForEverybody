@@ -53,6 +53,7 @@ Overall, week 1 was just an overview of what the course will look like over the 
 Chapter Two: Variables and Expressions (3 hours)
 I like variables and expressions. This section showed me which variables and expressions are appriate to use when programming. We learned that there are resereved words that can not be used for programming. Examples would be False,class,is and lambda. We learned that a variable is a named place in memory where a programmer can store data and later retrieve the data using the variable "name". Programmers get to choose which names are variables. Must start with a letter or underscore and must consist of letter, numbers, and underscores. Good: spam eggs Bad: 23spam #sign. 
 Code is a really important aspect of coding. It shows us how to do different Numeric Expressions and symbol. +, means addition. -, means subtraction. *, means mulitiplication. /, means division. **, means power. % means remainder. These operation allow use to make things such as calculators making basic math simplier for the world. Because of the lack of mathical symbols on the keyboard we use different expressions for math signs as stated above.
+
 Chapter Three: Conditional Code (3 hours)
 In Chapter 3 we learned about conditional code. This important because it allows us to make conditins in our code using if and elif statements. We learned what can be used for this and what can not be used for conditional code. I think this important because it makes our project more dynamic allowing us to make it more interesting.
 
