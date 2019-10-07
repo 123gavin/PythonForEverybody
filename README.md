@@ -47,9 +47,10 @@ Perspective Employers - artifact will be added to my student portfolio which cou
 Week: 
 
 Chapter One - Why we Program? (3 hours)
+Overall, week 1 was just an overview of what the course will look like over the next couple weeks. We were introduced to some of the authors of the textbook which was really cool to see because we got some in site on why they made the course a certain way. I really liked Guido van Rossum who is the creator of Python. We learned why we program.
 
 Chapter Two: Variables and Expressions (3 hours)
-
+I like variables and expressions. This section showed me which variables and expressions are appriate to use when programming. We learned that there are resereved words that can not be used for programming. Examples would be False,class,is and lambda. We learned that a variable is a named place in memory where a programmer can store data and later retrieve the data using the vari
 Chapter Three: Conditional Code (3 hours)
 
 Chapter Five: Loops and Iteration (3 hours)
