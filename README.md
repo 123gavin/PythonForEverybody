@@ -48,6 +48,7 @@ Week:
 
 Chapter One - Why we Program? (3 hours)
 Overall, week 1 was just an overview of what the course will look like over the next couple weeks. We were introduced to some of the authors of the textbook which was really cool to see because we got some in site on why they made the course a certain way. I really liked Guido van Rossum who is the creator of Python. We learned why we program.
+
   Week 3 was also why we program. This really showed the importance of programming and the benefit it has on society for all people. Programming shows me how important of a skill this is and why programmers are so important to the marketplace.
   
 Chapter Two: Variables and Expressions (3 hours)
