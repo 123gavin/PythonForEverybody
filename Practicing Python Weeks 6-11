@@ -1,0 +1,134 @@
+name = input("Enter your name: ")
+#x = 0
+#while(x<100):
+   # print(name)
+   # x = x+ 1
+
+#has to be something inside loop that changes condition
+
+#number = int(input("Enter a number: "))
+#x=1
+#while(x<=number):
+    #if(x % 10 == 0):
+       # print(x)
+  #  else:
+      #  print(x, end="")
+   # x = x + 1
+
+
+#number = 1
+#number -= 3
+#print(number)
+
+
+#bonus = 25
+#salary += bonus
+#print("Total salary:" , salary)
+
+number = 1
+while number <= 10:
+     print(number)
+     number = number + 1
+
+def arithmetic():
+    """arithmetic is used to show the basic functions you can use in python
+    """
+    def inputNumber(message):
+      while True:
+        try:
+           userInput = int(input(message))       
+        except ValueError:
+           print("Not an integer! Try again.")
+           continue
+        else:
+           return userInput 
+           break
+    inputnumber()
+    print("This shows how to use different arithmetic operations "
+      "and assignment statements")
+        first_number = inputnumber("Enter a number: ")
+
+        second_number = int(input("Enter another number: "))
+
+        sum_answer = first_number + second_number
+        difference = first_number - second_number
+        product = first_number * second_number
+        quotient = first_number / second_number
+        power = first_number ** second_number
+        print(first_number, "+", second_number, "=", sum_answer)
+        print(first_number, "-", second_number, "=", difference)
+        print(first_number, "*", second_number, "=", product)
+        print(first_number, "\\ ", second_number, "=", quotient)
+        print(first_number, "**", second_number, "=", power)
+        print("")
+    
+arithmetic()
+
+def inputNumber(message):
+  while True:
+    try:
+       userInput = int(input(message))       
+    except ValueError:
+       print("Not an integer! Try again.")
+       continue
+    else:
+       return userInput 
+       break
+age = inputNumber("How old are you?")
+
+if (age>=18):
+  print("You are old enough to vote.")
+else:
+  print("You will be able to vote in " + str(18-age) + " year(s).")
+
+#Function Definition
+def printMessage():
+    print("Welcome to Python.")
+    print("Learn the power of functions!")
+
+# Function Defintion
+def main():
+    print("Hello Programmer!")
+    printMessage()
+    printMessage()
+main()
+
+#whole thing is def, top line is heahder
+#calculateArea is a function name, Arguement is in call
+#Raduis is a parameter
+
+
+
+#Description: This program uses functions to calculate
+#the area of a circel, given the radius
+
+import math
+def calculateArea(radius):
+    area = math.pi * radius ** 2
+    print("Area of a circle with a radius of", radius, "is",
+          format(area, ".2f"))
+
+def main():
+    radius = int(input("Enter the radius: "))
+    calculateArea(radius)
+main()
+
+
+    
+def addNumbers(num1,num2):
+    print(num1, "+", num2, "=", num1+num2)
+
+def subtractNumbers(num1,num2):
+    print(num1, "-", num2, "=", num1-num2)
+
+def main():
+    firstNumber = int(input("Enter a number between 1 and 10: "))
+    secondNumber = int(input("Enter another number between 1 and 10: "))
+    operator = input("Enter a '+' to add pr a '-' to subtract:")
+
+    if operator == '+':
+        addNumbers(firstNumber, secondNumber)
+    elif operator == '-':
+        subtractNumbers(firstNumber,secondNumber)
+    else:
+        print("Try again idiot")
